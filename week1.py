@@ -38,12 +38,12 @@ print (f"""===========================
         RECEIPT
 ===========================
 Item:      {item}
-Price:     ${price}
+Price:     ${price:.2f}
 Quantity:  {quantity}
 ---------------------------
-Total:     ${price * quantity}
+Total:     ${price * quantity:.2f}
 ===========================  
-""")
+"""))
 
 #Secion5
 print ("Section5")
@@ -51,7 +51,7 @@ print ("Section5")
 user_full_name = input("Please enter your full name: ")
 user_hometown =  input("Please enter your hometown: ")
 user_hobby =  input("Please enter your hobby: ")
-user_fun_fact =  input("Please enter one fun fact about yourselves: ")
+user_fun_fact =  input("Please enter one fun fact about yourself: ")
 user_born_year =  input("Please enter the year you were born: ")
 
 print (f"""
