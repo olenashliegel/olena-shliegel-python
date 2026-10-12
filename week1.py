@@ -43,7 +43,7 @@ Quantity:  {quantity}
 ---------------------------
 Total:     ${price * quantity:.2f}
 ===========================  
-"""))
+""")
 
 #Secion5
 print ("Section5")
